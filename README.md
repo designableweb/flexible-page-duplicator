@@ -17,7 +17,7 @@ Once the plugin is activated, a 'Duplicate' action link will be added to the 'Pa
 If you would like to contribute to the development of this plugin, please feel free to submit a pull request or report any issues you encounter.
 
 <h2>Authors</h2>
-GPT4 with Bill Lyons (holding the lug nuts)
+GPT4 with bill@designableweb.com (holding the lug nuts)
 
 <h2>License</h2>
 This project is licensed under the GNU General Public License v3.0. Please see the LICENSE file for details.
