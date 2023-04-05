@@ -4,6 +4,15 @@ A simple WordPress plugin to duplicate pages along with their Advanced Custom Fi
 <h2>Description</h2>
 Flexible Page Duplicator is a WordPress plugin designed to quickly and easily duplicate pages along with their associated ACF fields and content, including flexible content fields. This plugin is a valuable tool for developers and content managers who often need to duplicate pages with complex ACF structures.
 
+When a user clicks the "Duplicate" link, the plugin does the following:
+<ol>
+    <li>Retrieves the original page's data, including the title, content, and post type.</li>
+    <li>Creates a new page as a draft with the same title, content, and post type as the original page.</li>
+    <li>Retrieves the ACF field objects associated with the original page using get_field_objects.</li>
+    <li>Loops through the ACF field objects and copies their values to the new page using update_field. This includes fields inside flexible content fields.</li>
+    <li>Copies the original page's template to the new page using update_post_meta.</li>
+</ol>
+
 <h2>Installation</h2>
 Download the plugin files and extract them to a folder on your computer.
 Upload the extracted flexible-page-duplicator folder to the /wp-content/plugins/ directory of your WordPress installation.
